@@ -121,7 +121,13 @@
       background-color: #fff;
       width: 100%;
       margin-bottom: 12px;
-      box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 30px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 15px 0px rgba(0, 0, 0, 0.1);
+      transition: 0.2s transform cubic-bezier(.48,.46,.45,1), 0.2s box-shadow cubic-bezier(.48,.46,.45,1);
+    }
+
+    article li img:hover {
+      transform: translateY(-5px) scale(1.02, 1.02);
+      box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 45px 0px rgba(0, 0, 0, 0.05);
     }
 
     article ul {
@@ -164,9 +170,9 @@
 </head>
 
 <body>
-  <div class="overlay">
+  <!-- <div class="overlay">
     Coming soon...
-  </div>
+  </div> -->
   <div class="wrapper">
     <header>
       <h1>Ihar Trafimovich</h1>
@@ -202,7 +208,7 @@
     <footer>
       <ul>
         <li>
-          <a href="mailto:unutranyholas@gmail.com">unutranyholas@gmail.com</a></li>
+          <a href="mailto:hello@trafimovi.ch">hello@trafimovi.ch</a></li>
         <li>
           <a href="http://twitter.com/unutranyholas">twitter</a></li>
         <li>
