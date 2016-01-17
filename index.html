@@ -17,6 +17,19 @@
       margin: 0;
     }
 
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.95);
+      color: #fff;
+      font-size: 60px;
+      padding: 40px;
+      z-index: 9999;
+    }
+
     body:before {
       content: '';
       display: block;
@@ -151,6 +164,9 @@
 </head>
 
 <body>
+  <div class="overlay">
+    Coming soon...
+  </div>
   <div class="wrapper">
     <header>
       <h1>Ihar Trafimovich</h1>
